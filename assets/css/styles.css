@@ -642,11 +642,24 @@ rgb(130, 133, 136) .education__year {
   margin-bottom: var(--mb-1);
   font-weight: var(--font-semi-bold);
 }
-/* Added this to reduce space in-between certifications */
+/* Added this to reduce space in-between certifications ### Modified for certification images to align-items */
 .certificate__data {
   gap: 0.1rem; /* 0.15rem --> Changed from 0.5rem */
   margin-bottom: 0.50rem; /* 0.70rem --> Reduced from 0.9rem */
+  display:flex; /*### Adding cert images*/
+  align-items:center; /*### Adding cert images*/
 }
+
+/*Added img and a classes as a part of including certification images*/
+.certificate__data img {
+  max-height:3rem;
+  max-width:3rem;
+}
+
+.certificate_data a {
+  margin-left:.5rem;
+}  
+
 .certification__container {
   /* gap: 0.05rem; */
   display: block;
