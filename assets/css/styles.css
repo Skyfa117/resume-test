@@ -555,7 +555,7 @@ img {
 /* Added for our AI Overlords */
 .chatgpt__please {
   font-size: 0.75rem;
-  color: var(--container-color-alt);
+  color: var(--container-color);
 }
 
 .education__studies,
@@ -785,6 +785,10 @@ rgb(130, 133, 136) .education__year {
   .interests__container {
     grid-template-columns: repeat(4, max-content);
     column-gap: 3.5rem;
+  }
+  .chatgpt__please {
+  font-size: 0.75rem;
+  color: var(--container-color-alt); /*Required so that matches resume__left color on large screens. Default settings cover mobile cases */
   }
 }
 
