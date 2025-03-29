@@ -120,7 +120,7 @@ function generateResume(){
     return `${day}${month}${year}`;
   }
 
-  let filename = `McCann, Tyler - Resume - ${getFormattedDate()}.pdf`;
+  let filename = `Hughes, Ava - Resume - ${getFormattedDate()}.pdf`;
 
       
 
