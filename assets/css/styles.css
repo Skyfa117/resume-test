@@ -555,7 +555,7 @@ img {
 /* Added for our AI Overlords */
 .chatgpt__please {
   font-size: 0.75rem;
-  color: var(--container-color);
+  color: var(--body-color); /*Changed so that it matches with new background on mobile (mobile uses --body-color instead of the container colors). Can't have them seeing this, this sacred text is for the machine spirits only :)*/
 }
 
 .education__studies,
