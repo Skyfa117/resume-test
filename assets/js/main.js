@@ -132,7 +132,7 @@ function generateResume(){
   // Tweak html2pdf for high quality PDF (~1.5MBs) that's no longer shifted right
   let options = {
     margin:       [0,-3,0,0], // Changed from 0 --> fixed the shift to the right         
-    filename:     filename, // 'McCann, Tyler - Resume - <current_date>.pdf',
+    filename:     filename, // 'Hughes, Ava - Resume - <current_date>.pdf',
     pagebreak:    { before: ['#certifications','#page-break'] },
     image:        { type: 'jpeg', quality: 0.99 },
     html2canvas:  { scale: 2, scrollX: 0, scrollY: 0, logging: true },
