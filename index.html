@@ -248,8 +248,12 @@
           <!-- ###### Need to go through and update skills to reflect my own list -->
           <section class="skills section" id="skills">
 
-            <!-- Hardcoded line breaks for temporary new page support -->
-            <h2 class="section-title"></br></br></br>Skills</h2>
+            <div>
+               <!-- Hardcoded line breaks for temporary new page support, ensures Skills section is not cut by page break -->
+              <br><br><br><br><br><br><br><br><br><br><br>
+            </div>
+
+            <h2 class="section-title">Skills</h2>
             <div class="skills__content bd-grid">
                         
               <!-- Skill Bullets (Left Side) -->
@@ -368,8 +372,9 @@
                   
                   <p class="experience__description">
                     Senior Operator in the unit's Cyber Threat Emulation (CTE) cell, additionally responsible for critical red team infrastructure and networking.<br><br>
-                    Planned and conducted custom red and purple team exercises against the unit's blue teams, researching vulnerabilities and exploits, coordinating and executing complex attack paths, and emulating Advanced Persistent Threats (APTs) to meet mission goals and client requirements.<br><br>
+                    Planned and conducted custom red and purple team exercises against the unit's blue teams, researching vulnerabilities and exploits, coordinating and executing complex attack paths, and emulating Advanced Persistent Threats (APTs).<br><br>
                     Developed, deployed and maintained infrastructure and networking critical to conducting operations, and produced scripts and tools to automate and manage these resources.<br><br>
+                    Generated data analytics by virtualizing, deploying and executing CVEs and TTPs, customizing exploits to meet mission goals and client requirements.<br><br>
                     Crafted documentation and training as well as mentored junior operators on tools, infrastructure, and exploitation techniques.
                   </p>
                   
@@ -686,7 +691,12 @@
               </div>
             </div>
             <!-- End Bullet -->
-            
+
+            <div>
+              <!--Added page breaks to ensure that styling/background fully fills the 2nd page when generating a pdf, extends achievements section beyond pdf border -->
+              <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            </div>
+
           </section>
         </div>
         <!-- END RESUME MAIN BODY -->
